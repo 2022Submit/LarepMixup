@@ -1,9 +1,4 @@
-"""
-Author: maggie
-Date:   2021-06-18
-Place:  Xidian University
-@copyright
-"""
+
 
 import torch.utils.data
 from robustness.tools.imagenet_helpers import common_superclass_wnid, ImageNetHierarchy
