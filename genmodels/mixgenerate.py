@@ -1,9 +1,4 @@
-"""
-Author: maggie
-Date:   2021-06-22
-Place:  Xidian University
-@copyright
-"""
+
 
 from logging import error, exception
 from random import sample
