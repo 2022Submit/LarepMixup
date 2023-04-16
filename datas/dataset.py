@@ -1,9 +1,4 @@
-"""
-Author: maggie
-Date:   2021-06-18
-Place:  Xidian University
-@copyright
-"""
+
 
 import os
 from torchvision.transforms import transforms
