@@ -1,9 +1,4 @@
-"""
-Author: maggie
-Date:   2021-06-15
-Place:  Xidian University
-@copyright
-"""
+
 
 import argparse
 from re import L
