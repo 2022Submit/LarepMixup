@@ -1,9 +1,4 @@
-"""
-Author: maggie
-Date:   2022-06-15
-Place:  Xidian University
-@copyright
-"""
+
 
 from logging import error
 from torch import LongTensor
