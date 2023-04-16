@@ -1,9 +1,4 @@
-"""
-Author: maggie
-Date:   2021-06-15
-Place:  Xidian University
-@copyright
-"""
+
 from logging import error
 import torch
 from art.estimators.classification import PyTorchClassifier
