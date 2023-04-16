@@ -1,4 +1,3 @@
-""" Author: maggie  Date:   2022-09-19  Place:  Xidian University   @copyright  """
 
 from logging import error
 import torch
