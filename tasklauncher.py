@@ -149,7 +149,6 @@ if __name__ == '__main__':
         if args.gen_network_pkl != None:        
             generate_model = MixGenerate(args, exp_result_dir, stylegan2ada_config_kwargs)
 
-            print("projecting test set-----为了避免在跑代码的中断，文件夹仍然名为trainset")
             generate_model.projectmain(cle_test_dataloader)     
 
         else:
@@ -636,7 +635,6 @@ if __name__ == '__main__':
                 adv_test_acc, adv_test_loss = target_classifier.evaluatefromtensor(target_classifier.model(),adv_x_test,adv_y_test)
                 print(f'Accuary of before dual manifold adversarial trained classifier on white-box adv testset:{adv_test_acc * 100:.4f}%' ) 
                 print(f'Loss of before dual manifold adversarial trained classifier on white-box adv testset:{adv_test_loss}' )           
-                raise error("maggie stop here")
             
             target_classifier.advtrain(args, cle_train_dataloader, adv_x_train, adv_y_train, cle_x_test, cle_y_test, adv_x_test, adv_y_test, exp_result_dir)
             cle_test_acc, cle_test_loss = target_classifier.evaluatefromtensor(target_classifier.model(),cle_x_test,cle_y_test)
